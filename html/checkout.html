@@ -1,0 +1,66 @@
+<html>
+<head>
+    <title>checkout</title>
+    <link rel="stylesheet" href="\css\checkout.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.0/dist/email.min.js"></script>
+    <script src="/js/checkout.js"></script>
+
+</head>
+<body>
+
+    <h1> GlOU BEAUTY</h1>
+
+    <header>
+        <a href="main.html" class="nav-link">Home</a>
+        <span id="signout"></span>
+        <a href="gallery.html">Gallery</a>
+        <a href="contactus.html">Contact Us</a>
+        <a href="aboutus.html">About Us</a>
+        
+        <a ><img  id="cart" src="/images/cart.png" alt="cart" ></a>
+    </header>
+    <div id="checkout">
+        <form method="get" >  
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="username">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone">
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address">
+
+
+        
+            <input id="checkoutbutton" type="submit" value="checkout">
+        </form>
+    </div>
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@gloubeauty.com</p>
+                <p>Phone: +1 (555) 123-4567</p>
+            </div>
+  
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <a href="#" class="social-icon">Facebook</a>
+                <a href="#" class="social-icon">Twitter</a>
+                <a href="#" class="social-icon">Instagram</a>
+            </div>
+  
+            <div class="footer-section">
+                <h3>Company</h3>
+            <a id="nav" href="aboutus.html"> About Us</a></br>
+            <a id="nav" href="contactus.html">Contact Us</a>
+                <p>Privacy Policy</p>
+            </div>
+        </div>
+        <p class="footer-bottom">&copy; 2023 GlOU BEAUTY. All rights reserved.</p>
+    </div>
+    </body>
+    </html>

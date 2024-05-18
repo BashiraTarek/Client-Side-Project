@@ -1,0 +1,131 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: white;
+    background-image: url("/images/makeup3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  h1 {
+    color: pink;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+
+  }
+  
+  header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  h3 {
+    color: black;
+    text-align: center;
+  }
+  
+  .gallery {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  .gallery td {
+    border: 1px solid white;
+    padding: 10px;
+  }
+  
+  .productimg {
+  max-width: 250px;
+    height: 410px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  #signout {
+    color: white;
+    cursor: pointer;
+  }
+  p{
+    display: block;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  button{
+    width: 100px;
+    height: 40px;
+    margin-bottom: 500px;
+  }
+  
+  
+  button:hover {
+    background-color: lightpink;
+  }
+  .footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+   margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-section {
+    max-width: 300px;
+  }
+  
+  .footer h3 {
+    color:pink;
+  }
+  
+  .footer p {
+    margin: 10px 0;
+  }
+  
+  .social-icon {
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+  }
+  #nav{
+    color: white;
+    text-decoration: none;
+  }
+  #tt{
+    margin-bottom: 100px;
+  }
+#cart{
+  width: 20px;
+  height: 20px;
+  
+}
+p{
+  margin: 80px 0;
+
+}
+button{
+  margin: 20px 0;
+ 
+}

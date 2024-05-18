@@ -1,0 +1,124 @@
+*{ 
+  padding: 0px; 
+  margin: 0px; 
+} 
+
+  #cart{
+    width: 20px;
+    height: 20px;
+    cursor: pointer; 
+  }
+ 
+
+#head
+{
+  color: pink;
+  text-align: center;
+}
+body{ 
+  background-image: url("/images/makeup3.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: cover ; 
+} 
+img{ 
+    width: 200px; 
+    height: 200px; 
+} 
+#header { 
+    background-color: #a57164; 
+    color: #fff; 
+    padding: 10px; 
+    text-align: center; 
+  } 
+ 
+  #all { 
+    background-color: black; 
+    padding: 10px; 
+    text-align: center; 
+     
+  }#all a { 
+    color: #fff; 
+    margin: 0 10px; 
+    font-weight: bold; 
+    text-decoration: none;
+    cursor: pointer; 
+  } 
+  #signout{
+    color:white;
+  cursor: pointer;
+  }
+.container { 
+  height: 80%; 
+  width: 60%; 
+  margin: 50px auto ; 
+  background-color:white; 
+  padding: 10px; 
+  border: 1px solid #a57164; 
+}#photoaboutus img{ 
+width: 60%; 
+height: 400px; 
+float: left; 
+margin-right: 20px ; 
+
+} 
+
+h1 { 
+  text-align: center;  
+  color: black;
+} 
+h2{ 
+  padding: 20px; 
+  color:black;
+}p{ 
+font-size: 19px; 
+color: pink;
+} 
+
+
+.all {  
+width: 500px; 
+margin: 0 auto; 
+padding: 10px; 
+}.everydiv p{ 
+color: white; 
+} 
+
+
+.footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 30px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-section {
+  max-width: 300px;
+}
+
+.footer h3 {
+  color:pink;
+}
+
+.footer p {
+  margin: 10px 0;
+}
+
+.social-icon {
+  display: inline-block;
+  margin-right: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+}
+#nav{
+  color: white;
+  text-decoration: none;
+}

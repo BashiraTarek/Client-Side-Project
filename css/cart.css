@@ -1,0 +1,169 @@
+html{
+  position: relative;
+}
+body {
+  font-family: Arial;
+  margin: 0;
+  background-image: url("/images/makeup3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+h1 {
+  color: pink;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+h3 {
+  color: black;
+  text-align: center;
+}
+
+.tab{
+ height: auto;
+}
+td{
+  background-color: white;
+}
+
+.gallery {
+  width: 300px;
+  margin: 20px auto;
+  border-collapse: collapse;
+
+}
+
+.gallery td {
+ 
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.gallery img {
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin-right: 20px;
+  padding-top: 35px;
+}
+
+.gallery p {
+  margin: 0px;
+  padding-top: 50px;
+  margin-right: 50px;
+}
+
+.gallery button {
+  width: 100px;
+  height: 30px;
+  background: pink;
+  color: white;
+  text-align: center;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 800px;
+  margin-bottom: 10px;
+}
+
+.bigdiv {
+  text-align: center;
+  margin-top: 20px;
+  position: absolute;
+  left: 45%;
+  bottom: 0;
+  
+}
+
+
+#content {
+  margin: 0 0 8px;
+}
+
+/* #footer {
+  text-align: center;
+  margin-top: 20px;
+  color: gray;
+} */
+#buyButton{
+  color: white;
+  background-color: pink;
+  width : 100px;
+  height: 30px;
+}#totalButton
+{
+  color: white;
+  background-color: pink;
+  width : 100px;
+  height: 30px;
+
+}
+
+  button{
+    margin-top: 50px;
+    
+  }
+
+  #nav{
+    color: white;
+    text-decoration: none;
+  }
+  #signout{
+    color:white;
+  cursor: pointer;
+  }
+ .footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px 0;
+    position: absolute ;
+    top: 100%;
+    width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-section {
+    max-width: 300px;
+  }
+  
+  .footer h3 {
+    color:pink;
+  }
+  
+  .footer p {
+    margin: 10px 0;
+  }
+  
+  .social-icon {
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+  }
+

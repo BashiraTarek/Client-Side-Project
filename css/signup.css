@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, ;
+    background-color: #fff; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url("/images/makeup3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #signup {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:lightgray; 
+    border: 1px solid white;
+    border-radius: 10px;
+    color :pink;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    color:rgb(203, 139, 150);
+  }
+
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    background-color: gray; 
+    color: pink;
+    cursor: pointer;
+  }
+  h1{
+    text-align: center;
+    color: pink;
+  }
+  #sp:hover {
+        border:2px solid gray;
+  }
+  #sp:focus {
+    background: white;
+  }
+  header {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    display:inline-block;
+  }
+  #cart{
+    width: 20px;
+    height: 20px;
+  }
+  
+  #signout{
+    color:white;
+  cursor: pointer;
+  }
+  h2{
+    color: black;
+    font-style: oblique;
+  }
+  h3{
+    color: pink;
+    font-style: italic;
+  }
+  .correct{
+    border: 4px solid green;
+  }
+  .incorrect{
+    border: 4px solid red;
+  }
+  .footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-section {
+    max-width: 300px;
+  }
+  
+  .footer h3 {
+    color:pink;
+  }
+  
+  .footer p {
+    margin: 10px 0;
+  }
+  
+  .social-icon {
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+  }
+  #nav{
+    color: white;
+    text-decoration: none;
+  }

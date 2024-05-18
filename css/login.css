@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, ;
+    background-color: #fff; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url("/images/makeup3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+#logincontainer {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white; 
+    border: 1px solid lightgray; 
+    border-radius: 10px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color:pink; 
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray; 
+}
+
+input[type="submit"] {
+    background-color: pink; 
+    color: white;
+    cursor: pointer;
+}
+
+a {
+    display: block;
+    text-align: center;
+    color: pink; 
+    text-decoration: none;
+}
+
+
+header {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  display:inline-block;
+}
+#cart{
+  width: 20px;
+  height: 20px;
+  
+ 
+}
+
+#signout{
+  color:white;
+cursor: pointer;
+}
+#bt:hover {
+    border:2px solid gray;
+}
+#bt:focus {
+background: white;
+}
+h1{
+    text-align: center;
+    color: pink;
+  }
+  .footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+   margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-section {
+    max-width: 300px;
+  }
+  
+  .footer h3 {
+    color:pink;
+  }
+  
+  .footer p {
+    margin: 10px 0;
+  }
+  
+  .social-icon {
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+  }
+  #nav{
+    color: white;
+    text-decoration: none;
+  }
+  #tt{
+    margin-bottom: 100px;
+
+  } #signout{
+    color:white;
+  cursor: pointer;
+  }
