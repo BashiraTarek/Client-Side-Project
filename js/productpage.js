@@ -90,9 +90,11 @@ document.getElementById('cart').addEventListener('click',function(){
 });// end of load
 
 function AddDetails(product) {
-    let item = JSON.parse(localStorage.getItem(`${JSON.parse(localStorage.getItem('currentuser')).UserName} cart`)) || [];
+    let currentusername = localStorage.getItem('currentuser');
+    let item = JSON.parse(localStorage.getItem(`${currentusername} cart`)) || [];
+    console.log(item);
     item.push(product);
-    localStorage.setItem(`${JSON.parse(localStorage.getItem('currentuser')).UserName} cart`, JSON.stringify(item));
+    localStorage.setItem(`${currentusername} cart`, JSON.stringify(item));
     window.location.href = 'cart.html';
 }
 

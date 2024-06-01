@@ -23,7 +23,8 @@ window.addEventListener('load', function () {
  
 function totalpricevalue(){
     
-let item = JSON.parse(localStorage.getItem(`${JSON.parse(localStorage.getItem('currentuser')).UserName} cart`)) || [];
+let currentusername = localStorage.getItem('currentuser');
+let item = JSON.parse(localStorage.getItem(`${currentusername} cart`)) || [];
 let total=0;
 
 for (let i=0; i< item.length;i++){
@@ -40,7 +41,7 @@ console.log('total ' +total)
 
 
 let currentusername = localStorage.getItem('currentuser');
-let item = JSON.parse(localStorage.getItem(`${JSON.parse(localStorage.getItem('currentuser')).UserName} cart`)) || [];
+let item = JSON.parse(localStorage.getItem(`${currentusername} cart`)) || [];
 
 const table = document.getElementById("table");
 
@@ -82,8 +83,8 @@ item.forEach(function (product,i){
           item.splice(i, 1);
    
             // Save the updated array to local storage
-            localStorage.setItem(`${JSON.parse(localStorage.getItem('currentuser')).UserName} cart`, JSON.stringify(item));
-            location.reload(); 
+           localStorage.setItem(`${currentusername} cart`,JSON.stringify(item));
+           location.reload(); 
            totalpricevalue();
 
        });
